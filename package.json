@@ -1,0 +1,30 @@
+{
+  "name": "open-source-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afirdousi/open-source-tester.git"
+  },
+  "keywords": [
+    "Open",
+    "Source",
+    "NPM",
+    "Git",
+    "Travis",
+    "CI"
+  ],
+  "author": "Anas R Firdousi <anas.firdousi@gmail.com> (http://www.twitter.com/AnasFirdousi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afirdousi/open-source-tester/issues"
+  },
+  "homepage": "https://github.com/afirdousi/open-source-tester#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
