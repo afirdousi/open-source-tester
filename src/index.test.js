@@ -32,7 +32,18 @@ describe('dummy',function(){
     it('should return a random item', function () {
         var randomItem = clients.random();
         expect(clients.all).to.include(randomItem);
-    })
+    });
+
+    it('return number of items wanted', function () {
+            var randomItem = clients.random(3);
+            console.log(randomItem);
+            expect(randomItem).to.have.length(3);
+
+
+        });
+
+
+
 
 
 })
