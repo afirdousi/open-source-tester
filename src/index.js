@@ -5,7 +5,10 @@ var getRandomItem = randomName(clientNames);
 
 module.exports = {
     all: clientNames,
-    random:random
+    random:random,
+    lastName:lastName,
+    firstName:firstName
+
 }
 
 function random(number){
@@ -21,4 +24,12 @@ function random(number){
     }
 
     return randomItems;
+}
+
+function lastName(){
+    return clientNames[clientNames.length-1];
+}
+
+function firstName(){
+    return clientNames[0];
 }

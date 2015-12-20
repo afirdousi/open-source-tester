@@ -36,11 +36,24 @@ describe('dummy',function(){
 
     it('return number of items wanted', function () {
             var randomItem = clients.random(3);
-            console.log(randomItem);
             expect(randomItem).to.have.length(3);
 
+    });
 
-        });
+    it('should return first name',function(){
+        var actualName = clients.all;
+        var name = clients.firstName();
+        expect(name).to.be.equal(actualName[0]);
+
+    });
+
+    it('should return last name',function(){
+        var actualName = clients.all;
+        var name = clients.lastName();
+        expect(name).to.be.equal(actualName[clients.all.length-1]);
+
+    });
+
 
 
 
